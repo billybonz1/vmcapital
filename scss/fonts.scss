@@ -1,0 +1,11 @@
+@import "bourbon";
+
+@include font-face("SFUIDisplay-Black", "../fonts/SFUIDisplay-Black/SFUIDisplay-Black", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Bold", "../fonts/SFUIDisplay-Bold/SFUIDisplay-Bold", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Heavy", "../fonts/SFUIDisplay-Heavy/SFUIDisplay-Heavy", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Light", "../fonts/SFUIDisplay-Light/SFUIDisplay-Light", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Medium", "../fonts/SFUIDisplay-Medium/SFUIDisplay-Medium", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Regular", "../fonts/SFUIDisplay-Regular/SFUIDisplay-Regular", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Semibold", "../fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Thin", "../fonts/SFUIDisplay-Thin/SFUIDisplay-Thin", $file-formats: eot woff ttf);
+@include font-face("SFUIDisplay-Ultralight", "../fonts/SFUIDisplay-Ultralight/SFUIDisplay-Ultralight", $file-formats: eot woff ttf);

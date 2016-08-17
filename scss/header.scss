@@ -1,0 +1,205 @@
+@import "bourbon";
+@import "vars.scss";
+
+
+
+body{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.inner{
+	max-width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+header{
+	background-image: url(../img/img.jpg);
+	min-height: 515px;
+}
+.logo{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 39px;
+	letter-spacing: 0.4px;
+}
+.social{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	$svgcolor: black;
+	&.social-border{
+		a{
+			border: 1px solid black;
+			width: 23px;
+			height: 23px;
+			&:hover{
+				svg{
+					fill: red;
+				}
+			}
+		}
+		svg{
+			fill: $svgcolor;
+			width: 12px;
+			height: 12px;
+		}
+	}
+	$svgcolor: red;
+	svg{
+		width: 17px;
+		height: 17px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		fill: $svgcolor;
+		transition: .4s all;
+	}
+
+	a{
+		background: #fff;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border-radius: 24px;
+		margin-right: 12px;
+		position: relative;
+		transition: .2s all;
+		&:hover{
+			transform: scale(1.05);
+			svg{
+				fill: black;
+			}
+		}
+	}
+
+}
+.top{
+	margin-top: 30px;
+}
+.header__content{
+	padding-top: 318px;
+	padding-left: 61px;
+	letter-spacing: 1.8px;
+}
+.header__content-h{
+	padding-bottom: 9px;
+}
+.header__content-h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "SFUIDisplay-Medium";
+	font-size: 22px;
+}
+.header__menu{
+	padding-left: 41px;
+	ul{
+		list-style: none;
+		border-top: 1px solid #fff;
+		margin-top: 26px;
+		padding-left: 0;
+		margin-right: 40px;
+	}
+	li{
+		display: inline-block;
+	}
+	a{
+		color: #fff;
+		font-size: 14px;
+		font-family: "SFUIDisplay-Regular";
+		padding: 16px 12px;
+		display: block;
+		letter-spacing: 0.7px;
+		position: relative;
+		&:hover{
+			text-decoration: none;
+			&:after{
+				width: 20%;
+			}
+		}
+		&:after{
+			content: "";
+			width: 0;
+			height: 1px;
+			background: #fff;
+			left: 12px;
+			bottom: 0;
+			position: absolute;
+			transition: .2s all;
+		}
+	}
+}
+.content-left{
+	h2{
+		font-family: "SFUIDisplay-Bold";
+		text-transform: uppercase;
+		font-size: 23px;
+		text-align: left;
+		padding-left: 45px;
+	}
+}
+.main-content__item {
+	padding-top: 21px;
+}
+.content-right__h{
+	h2{
+		font-family: "SFUIDisplay-Bold";
+		text-transform: uppercase;
+		font-size: 15px;
+		text-align: left;
+		padding-left: 20px;
+	}
+}
+.content-right__border{
+	border-left: 1px solid #000;
+}
+.content-right{
+	p{
+		padding-left: 20px;
+		letter-spacing: 0.2px;
+	}
+}
+p{
+	font-size: 14px;
+	line-height: 22px;
+	font-family: "SFUIDisplay-Regular";
+}
+.copyright{
+	font-family: "SFUIDisplay-Bold";
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 8px 15px;
+	letter-spacing: 1.4px;
+}
+footer{
+	padding: 15px 0;
+	border-top: 1px solid #000000;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.px-perfect{
+	img{
+		width: 1200px;
+		position: absolute;
+		left: 50%;
+		margin-left: -600px;
+		top: 0;
+		opacity: 0.5;
+		z-index: 0;
+	}
+}
